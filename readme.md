@@ -10,4 +10,21 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+* Clone the repositary
+
+```
+git clone git@github.com:ObelusFamily/Anythink-Market-rsxp5.git webapp
+cd webapp
+```
+
+* Run the Docker service
+
+```
+docker-compose up
+```
+
+* Visit the frontend via : `localhost:3001`. 
+
+* You should be able to find the backend service via : `localhost:3000/api/ping`.
+
+These have been auto-booted via nodemon.
